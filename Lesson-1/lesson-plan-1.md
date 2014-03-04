@@ -1,0 +1,3 @@
+## Lesson 1 - Getting started with Sonic Pi on a Raspberry Pi
+
+The Raspberry Pi is a tiny computer less than the size of a pack of cards which can transform the way we perceive and approach computation. In this lesson we will introduce the basic components of the Raspberry Pi and how they relate to a traditional computer. We will discuss the generic nature of computation and how the same computer can be programmed to simultaneously do many different things - from word processing to music synthesis. Finally, we will introduce the most basic principle of programming - a program as a sequence of instructions.
