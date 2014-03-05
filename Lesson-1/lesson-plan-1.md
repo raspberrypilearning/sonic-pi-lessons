@@ -25,7 +25,8 @@ The Raspberry Pi is a tiny computer less than the size of a pack of cards which 
 **Some stufents are able to:**
 
 - Invent their own statements. 
-- Start to explore the limitation of a program with only statements and control flow.- Understand the consequences of their program before they run it and therefore design a musical program that’s interesting to them.
+- Start to explore the limitation of a program with only statements and control flow.
+- Understand the consequences of their program before they run it and therefore design a musical program that’s interesting to them.
 
 ### Lesson Summary
 
@@ -43,12 +44,40 @@ Start the demo code below, play it for a moment or two and explain that in a few
 
 ```ruby
 with_tempo 350
-2.times do  play_pattern [40,25,45,25,25,50,50]  play_pattern [25,50,25,30,35,40,45,50]  play_pattern [25,50,25,30,35,40,45,50].reverseend2.times do  with_synth "saw_beep"  play_pattern [25,50,25,30,35,40,45,50].shuffle  play_pattern [25,50,25,30,35,40,45,50].reverseend
-in_thread do  with_synth "saw_beep"  10.times do    if rand < 0.5      play 37    else      play 49    end
+
+2.times do
+  play_pattern [40,25,45,25,25,50,50]
+  play_pattern [25,50,25,30,35,40,45,50]
+  play_pattern [25,50,25,30,35,40,45,50].reverse
+end
+
+2.times do
+  with_synth "saw_beep"
+  play_pattern [25,50,25,30,35,40,45,50].shuffle
+  play_pattern [25,50,25,30,35,40,45,50].reverse
+end
+
+in_thread do
+  with_synth "saw_beep"
+  10.times do
+    if rand < 0.5
+      play 37
+    else
+      play 49
+    end
   sleep 2 
-  endend
-in_thread do  with_synth "pretty_bell"  20.times do    play 49    sleep 1 
-  endend```
+  end
+end
+
+
+in_thread do
+  with_synth "pretty_bell"
+  20.times do
+    play 49
+    sleep 1 
+  end
+end
+```
 
 ### Main Development
 
@@ -56,7 +85,7 @@ with_tempo 350
 
 2. Split the class into groups again and give each group a deck of the [computer program cards](https://github.com/raspberrypilearning/sonic-pi-lessons/raw/master/Lesson-1/Lesson-1-computer-program-cards.pdf). Ask each group to take out the statement cards and the control card from the deck. Then ask each group to form a line and to give each member of the group a statement card after shuffling them. The person at the start of the line should be given the control card. Explain that the person holding the control card should carry out the instructions on the statement card and then pass the control card to the next person in the line like a relay baton. When the control card has reached the end of the line, they should stop. This should be repeated for a number of random orderings after which the groups could be invited to create their own orderings. A helpful analogy might be one of cooking - where collections of statements are recipes and the control flow is which stage of the recipe you’re in.
 
-3. Start the Sonic Pi software. First, invite the students to log into their RPi and start the windowing environment. [Instructions on how to do this can be found here](../Lesson-1/Connecting-RPi). It might help to display instructions on how to achieve this on a projector for all to see.
+3. Start the Sonic Pi software. First, invite the students to log into their RPi and start the windowing environment. [Instructions on how to do this can be found here](/Lesson-1/Connecting-RPi.md). It might help to display instructions on how to achieve this on a projector for all to see.
 
 4. Explain to them that they can use the same statements on the cards in the computer program: `play` and `sleep`. Invite them to spend the remaining time writing their own programs and listening to the results.
 
