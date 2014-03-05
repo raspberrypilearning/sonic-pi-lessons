@@ -1,14 +1,16 @@
 ## Lesson 1 - Getting started with Sonic Pi on a Raspberry Pi
 
-**Introduction**
+###Introduction
 
 The Raspberry Pi is a tiny computer less than the size of a pack of cards which can transform the way we perceive and approach computation. In this lesson we will introduce the basic components of the Raspberry Pi and how they relate to a traditional computer. We will discuss the generic nature of computation and how the same computer can be programmed to simultaneously do many different things - from word processing to music synthesis. Finally, we will introduce the most basic principle of programming - a program as a sequence of instructions.
 
-**Learning Objectives**
+### Learning Objectives
 
 - Know that there are many different types of computing devices.
 - Understand how a computer uses a sequence of statements to do something, and that this sequence is called a program. 
 - Be able to give the Raspberry Pi some instructions to make some music.
+
+### Learning Outcomes
 
 **All students are able to**
 
@@ -16,7 +18,16 @@ The Raspberry Pi is a tiny computer less than the size of a pack of cards which 
 - Act out some basic statements and understand that a sequence of statements is a program
 - Write a simple program.
 
-**Lesson Summary**
+**Most students are able to:**
+
+- Create their own programs for others to act out and have an idea of what might happen when it is acted out.
+
+**Some stufents are able to:**
+
+- Invent their own statements. 
+- Start to explore the limitation of a program with only statements and control flow.- Understand the consequences of their program before they run it and therefore design a musical program that’s interesting to them.
+
+### Lesson Summary
 
 - An introduction to the basic physical parts of a RPi
 - A demonstration that the RPi can behave like a traditional computer 
