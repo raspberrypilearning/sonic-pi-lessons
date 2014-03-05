@@ -52,7 +52,7 @@ For the majority of the lesson, it is suggested that work is carried out by stud
 
 **Lessons**
 
-- [Lesson 1 - Getting started with Sonic Pi on a Raspberry Pi](/Lesson-1/Lesson-Plan-1.md)
+- [Lesson 1 - Getting started with Sonic Pi on a Raspberry Pi](/Lesson-1/lesson-plan-1.md)
 - Lesson 2 - Debugging & Iteration
 - Lesson 3 - Conditionals & Randomisation
 - Lesson 4 - Data Structures
