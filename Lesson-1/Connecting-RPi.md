@@ -25,3 +25,5 @@ The strange text prompt that you see is one of the most powerful ways to communi
 ### Starting the Sonic Pi Environment
 
 Once the graphical environment has started, you can click on the **start menu** in the bottom left (it looks like a little bird) and choose **Sonic Pi** from the **Programming menu**. After a few moments, you should see the Sonic Pi application menu on your screen.
+
+![alt text](sonic_pi.png "Sonic Pi Interface")
