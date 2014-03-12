@@ -57,7 +57,7 @@ For the majority of the lesson, it is suggested that work is carried out by stud
 - [Lesson 3 - Conditionals & Randomisation](/Lesson-3/lesson-plan-3.md)
 - [Lesson 4 - Data Structures](/Lesson-4/lesson-plan-4.md)
 - [Lesson 5 - Concurrency](/Lesson-5/lesson-plan-5.md)
-- [Lesson 6 - Functions with Parameters](/Lesson-6/lesson-plan-6.md)
+
 
 ###Community
 
