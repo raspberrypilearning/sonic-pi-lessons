@@ -1,6 +1,6 @@
 ## Sonic Pi Scheme of Work
 
-![alt text](\sonic-pi.png)
+![](sonic-pi.png)
 
 ###Introduction
 
@@ -23,7 +23,6 @@ Over the course of six lessons, students will learn:
 	- Algorithms
 	- Functions
 	- Concurrency
-	
 
 ###Computing Programme of Study Met:
 
@@ -43,7 +42,7 @@ Over the course of six lessons, students will learn:
 For the majority of the lesson, it is suggested that work is carried out by students in pairs. Each pair should have access to the standard equipment described below. In addition, it is suggested that you have your own teacher setup connected with a speaker for the demonstration sections.
 
 - A Raspberry Pi per pair;
-- Latest NOOBS SD card with the Sonic Pi software installed per pair; 
+- Latest NOOBS SD card with the Sonic Pi software installed per pair;
 - A keyboard and mouse connected to the RPi per pair;
 - A monitor connected to the RPi per pair;
 - A headphone splitter connected to the RPi audio jack per pair;
@@ -61,6 +60,16 @@ For the majority of the lesson, it is suggested that work is carried out by stud
 
 ###Community
 
-For more information on the [Sonic Pi Project](https://github.com/samaaron/sonic-pi/) please see Dr Sam Aaron's website and GitHub repository. 
+For more information on the [Sonic Pi Project](https://github.com/samaaron/sonic-pi/) please see Dr Sam Aaron's website and GitHub repository.
 
 If you would like to contribute to this project or have questions about it please use the [Sonic Pi Forum here](https://groups.google.com/forum/#!forum/sonic-pi).
+
+## Licence
+
+Unless otherwise specified, everything in this repository is covered by the following licence:
+
+![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+***Sonic Pi Lessons*** by the [Raspberry Pi Foundation](http://raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+Based on a work at https://github.com/raspberrypilearning/sonic-pi-lessons
