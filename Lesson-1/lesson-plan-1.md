@@ -42,7 +42,7 @@ Have a demonstration Raspberry Pi already connected and the Sonic Pi software ru
 
 Start the demo code below, play it for a moment or two and explain that in a few weeks the students will be able to make computers do this for themselves. Emphasise that they’ll be free to do what they want with it and have a lot of fun in the process; programming is about getting the computer to do exactly what you want it to do. It’s not important for the students to see the application or any code at this stage, just for them to hear the sounds coming from the computer.
 ```ruby
-with_tempo 350
+use_bpm 350
 
 2.times do
   play_pattern [40,25,45,25,25,50,50]
@@ -51,29 +51,32 @@ with_tempo 350
 end
 
 2.times do
-  with_synth "saw_beep"
-  play_pattern [25,50,25,30,35,40,45,50].shuffle
-  play_pattern [25,50,25,30,35,40,45,50].reverse
+  with_synth "saw_beep" do
+    play_pattern [25,50,25,30,35,40,45,50].shuffle
+    play_pattern [25,50,25,30,35,40,45,50].reverse
+  end
 end
 
 in_thread do
-  with_synth "saw_beep"
-  10.times do
-    if rand < 0.5
-      play 37
-    else
-      play 49
+  with_synth "saw_beep" do
+    10.times do
+      if rand < 0.5
+        play 37
+      else
+        play 49
+      end
+      sleep 2 
     end
-  sleep 2 
   end
 end
 
 
 in_thread do
-  with_synth "pretty_bell"
-  20.times do
-    play 49
-    sleep 1 
+  with_synth "pretty_bell" do
+    20.times do
+      play 49
+      sleep 1 
+    end
   end
 end
 ```
