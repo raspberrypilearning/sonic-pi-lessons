@@ -40,8 +40,7 @@ The Raspberry Pi is a tiny computer, less than the size of a pack of cards, whic
 
 Have a demonstration Raspberry Pi already connected and the Sonic Pi software running. Hold up a Raspberry Pi board and ask the students what they think it is. Explain that it’s actually a computer and that in the coming lessons we’re going to do something special with it. Instead of running apps and games other people have created for us, we’re going to learn to write our own software to make music. 
 
-Start the demo code below, play it for a moment or two and explain that in a few weeks the students will be able to make computers do this for themselves. Emphasise that they’ll be free to do what they want with it and have a lot of fun in the process; programming is about getting the computer to do exactly what you want it to do. It’s not important for the students to see the application or any code at this stage, just for them to hear the sounds coming from the computer and being modified by moving the mouse around.
-
+Start the demo code below, play it for a moment or two and explain that in a few weeks the students will be able to make computers do this for themselves. Emphasise that they’ll be free to do what they want with it and have a lot of fun in the process; programming is about getting the computer to do exactly what you want it to do. It’s not important for the students to see the application or any code at this stage, just for them to hear the sounds coming from the computer.
 ```ruby
 with_tempo 350
 
