@@ -62,6 +62,8 @@ For more information on the [Sonic Pi Project](https://github.com/samaaron/sonic
 
 If you would like to contribute to this project or have questions about it please use the [Sonic Pi Forum here](https://groups.google.com/forum/#!forum/sonic-pi).
 
+For the latest news, take a look at the [Sonic Pi Twitter account](https://twitter.com/sonic_pi).
+
 ## Licence
 
 Unless otherwise specified, everything in this repository is covered by the following licence:
