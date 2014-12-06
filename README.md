@@ -58,11 +58,13 @@ For the majority of the lesson, it is suggested that work is carried out by stud
 
 ###Community
 
-For more information on the [Sonic Pi Project](https://github.com/samaaron/sonic-pi/) please see Dr Sam Aaron's website and GitHub repository.
+For more information, take a look at the [Sonic Pi website](http://sonic-pi.net).
 
 If you would like to contribute to this project or have questions about it please use the [Sonic Pi Forum here](https://groups.google.com/forum/#!forum/sonic-pi).
 
-For the latest news, take a look at the [Sonic Pi Twitter account](https://twitter.com/sonic_pi).
+For the latest news, take a look at the [Sonic Pi Twitter account](https://twitter.com/sonic_pi) and sign up to the [Sonic Pi Weekly](http://eepurl.com/9SLYX) newsletter.
+
+The full source code can be viewed and obtained from the [Sonic Pi GitHub repository](https://github.com/samaaron/sonic-pi)
 
 ## Licence
 
