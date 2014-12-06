@@ -2,13 +2,13 @@
 
 ##Introduction
 
-In this lesson we will be given an opportunity to experience the art of programming; from debugging to careful syntax placement, to the joy of a working program. Also, in order to to construct some meaningful and interesting musical structures, we need to learn some meaningful and interesting programming structures. Today we are going to learn how to create a baseline.
+In this lesson we will be given an opportunity to experience the art of programming; from debugging to careful syntax placement, to the joy of a working program. Also, in order to to construct some meaningful and interesting musical structures, we need to learn some meaningful and interesting programming structures. Today we are going to learn how to create a bass line.
 
 ## Learning Objectives
 
 - Understand that computers don’t know what to do do with an error.
 - Write a simple program using text and identify any errors.
-- Iterate/repeat some code a number of times to create a 'baseline'.
+- Iterate/repeat some code a number of times to create a 'bass line'.
 
 ## Learning Outcomes
 
@@ -54,7 +54,7 @@ If any of the pupils have interesting statements that they created as part of th
 
 5. Introduce [the iteration cards](https://github.com/raspberrypilearning/sonic-pi-lessons/raw/master/Lesson-2/Lesson-2-Iteration-Cards.pdf): `1.times`, `do` and `end`. Wrap the original program in the `do` and `end` cards, and prefix everything with the `1.times` card. Explain that this is just a long-winded way of doing the same thing as the original program. The new cards are extra syntax which should be thought of as the same as punctuation; capital letters, commas, full stops and so on. Like punctuation, this syntax helps the computer structure the program. However, with this extra syntax, we have actually formed a circle out of our code. The syntax defines the start and the end points of the loop: the `do` and `end`. In this case we only loop round the circle once, but if we replace the first card with `3.times` we loop round our program 3 times. If you have enough space, try forming a circle and enact the loop. Explain that this loop structure is called iteration.
 
-6. Pupils are asked to enter the following ‘baseline’ code into the Sonic Pi application: 
+6. Pupils are asked to enter the following ‘bass line’ code into the Sonic Pi application: 
 
 	```ruby
 	play 42
