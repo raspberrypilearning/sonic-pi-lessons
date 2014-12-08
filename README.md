@@ -1,14 +1,14 @@
-## Sonic Pi Scheme of Work
+# Sonic Pi Scheme of Work
 
 ![](sonic-pi.png)
 
-###Introduction
+## Introduction
 
 [Sonic Pi](http://www.cl.cam.ac.uk/projects/raspberrypi/sonicpi/) is an open source programming environment developed by Dr Sam Aaron, designed to explore and teach programming concepts through the process of creating new sounds. This is a scheme of work which emphasises the importance of creativity in the learning process and gives users the control to turn their sonic ideas into reality.
 
 This scheme of work is specifically targetted towards introductory KS3 Computer Science. This has been developed in harmony with the new Computing curriculum in the UK. This scheme of work is the result of a close collaboration between Computing & ICT teachers and researchers at the University of Cambridge. It has been successfully trialled at a number of schools.
 
-###Students will learn:
+## Students will learn:
 
 Over the course of six lessons, students will learn:
 
@@ -24,7 +24,7 @@ Over the course of six lessons, students will learn:
 	- Functions
 	- Concurrency
 
-###Computing Programme of Study Met:
+## Computing Programme of Study Met:
 
 **KS3:**
 
@@ -37,7 +37,7 @@ Over the course of six lessons, students will learn:
 
 [National Curriculum Computing Programmes of Study](https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study#key-stage-3)
 
-###Resources
+## Resources
 
 For the majority of the lesson, it is suggested that work is carried out by students in pairs. Each pair should have access to the standard equipment described below. In addition, it is suggested that you have your own teacher setup connected with a speaker for the demonstration sections.
 
@@ -48,7 +48,7 @@ For the majority of the lesson, it is suggested that work is carried out by stud
 - A headphone splitter connected to the RPi audio jack per pair;
 - A pair of headphones connected to the splitter per student.
 
-###Lessons
+## Lessons
 
 - [Lesson 1 - Getting started with Sonic Pi on a Raspberry Pi](Lesson-1/lesson-plan-1.md)
 - [Lesson 2 - Debugging & Iteration](Lesson-2/lesson-plan-2.md)
@@ -56,7 +56,7 @@ For the majority of the lesson, it is suggested that work is carried out by stud
 - [Lesson 4 - Data Structures](Lesson-4/lesson-plan-4.md)
 - [Lesson 5 - Concurrency](Lesson-5/lesson-plan-5.md)
 
-###Community
+## Community
 
 For more information, take a look at the [Sonic Pi website](http://sonic-pi.net).
 
