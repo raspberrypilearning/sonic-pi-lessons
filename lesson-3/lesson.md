@@ -1,7 +1,5 @@
 # Lesson 3 - Conditionals & Randomisation
 
-##Introduction
-
 If we want to make some meaningful and interesting musical structures, we need to learn some meaningful and interesting programming structures.
 
 ## Learning Objectives
@@ -12,37 +10,37 @@ If we want to make some meaningful and interesting musical structures, we need t
 
 ## Learning Outcomes
 
-###All students will be able to:
+### All students will be able to:
 
 - Play a random note.
 - Use an `if` statement.
 - Place a comment in their code.
 
-###Most students will be able to:
+### Most students will be able to:
 
 - Play random notes with varying randomness (by supplying a different argument to `rand`).
 - Write useful comments.
 - Modify code in the `if` branches to create different execution paths.
 
-###Some students will be able to:
+### Some students will be able to:
 
 - Use `rand` to sleep for a random amount of time.
 - Understand that using `rand` as a test with `<` allows for different probability distributions other than 50/50.
 - Nest `if` statements inside other `if` statements.
 - Understand that comments are about communicating intent.
 
-##Lesson Summary
+## Lesson Summary
 
 -  Simple use of randomisation.
 -  Using conditionals to make decisions.
--  Combining randomisation and conditionals. 
+-  Combining randomisation and conditionals.
 -  Comments as a programming tool.
 
-##Starter
+## Starter
 
-Pupils are first invited to set up and connect their Raspberry Pi hardware. They may then load the Sonic Pi application and find their work from the previous lesson. Through questioning, select students to explain what they did in the previous lesson. 
+Pupils are first invited to set up and connect their Raspberry Pi hardware. They may then load the Sonic Pi application and find their work from the previous lesson. Through questioning, select students to explain what they did in the previous lesson.
 
-##Main Development
+## Main Development
 
 1. Pupils should be should be shown how to add some randomisation to their code. This can be achieved by using the statement `rand(10)`, which returns a random value between `0` and `10` (from 0 up to but not including the number you specify). You can specify other numbers for larger ranges; for instance, `rand(20)` will return values from `0` to `20`. Let’s use this in our program by adding our random number to a note with the `+` operator:
 
@@ -62,7 +60,7 @@ Pupils are first invited to set up and connect their Raspberry Pi hardware. They
 	if rand < 0.5
       play 60
 	  sleep 0.5
-	  play 62 
+	  play 62
 	else
       play 72
       sleep 0.25
@@ -71,24 +69,21 @@ Pupils are first invited to set up and connect their Raspberry Pi hardware. They
       play 70
 	end
 	```
-	
+
 4. Once they have copied this code, point out the syntax of the `if` statement, specifically the words `else` and `end`. These are similar to the `do` and `end` found in the iteration block discussed in the previous lesson, in that they’re like punctuation. The `else` separates the two different branches of the `if` statement.
 
 5. The first line should also be discussed; this is equivalent to a coin toss in that `rand(1)` returns a random value between `0` and `1`, and we’re testing to see if that random value is less than 0.5. For the advanced pupils, you may wish to point out that changing the 0.5 to different values will affect the probability of which branch is selected. For example, a value of 0.1 would mean that (on average) every 10 runs the first branch be selected only once, and the second branch will be selected 9 times.
 
 6. The pupils are then invited to press the play button a number of times so that they can hear the different branches being executed, the decision of which branch to execute being random each time.
 
-
 7. Pupils are invited to play around with the constructs of this lesson, in addition to everything they’ve learned so far, to design a simple musical program.
-
 
 ## Plenary
 
 Finally, teach the class that the hash symbol `#` is used to make a comment. Invite them to place comments in their code to explain what is happening. This is not just for other programmers who might read their code; it is also for themselves in the future, when they look back at old code they may have written a long time ago and have forgotten what it does. For example:
 
-
 ```ruby
-# Toss a virtual coin 
+# Toss a virtual coin
 if rand(1) < 0.5
 # if heads, play two ascending notes
   play 60
@@ -104,7 +99,6 @@ else
 end
 ```
 
-
 ## Homework
 
-Students may research electronic-sounding music and think about how they could improve the sound of their own composition. 
+Students may research electronic-sounding music and think about how they could improve the sound of their own composition.

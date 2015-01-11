@@ -1,0 +1,8 @@
+title: Sonic Pi Lessons
+category: teach
+lessons:
+    1: Getting started with Sonic Pi on a Raspberry Pi
+    2: Debugging & Iteration
+    3: Conditionals & Randomisation
+    4: Data Structures
+    5: Concurrency
