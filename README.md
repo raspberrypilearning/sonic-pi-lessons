@@ -1,6 +1,6 @@
 # Sonic Pi Scheme of Work
 
-![](sonic-pi.png)
+![](cover.png)
 
 ## Introduction
 
