@@ -2,8 +2,6 @@
 
 ![](cover.png)
 
-## Introduction
-
 [Sonic Pi](http://www.cl.cam.ac.uk/projects/raspberrypi/sonicpi/) is an open source programming environment developed by Dr Sam Aaron, designed to explore and teach programming concepts through the process of creating new sounds. This is a scheme of work which emphasises the importance of creativity in the learning process and gives users the control to turn their sonic ideas into reality.
 
 This scheme of work is specifically targetted towards introductory KS3 Computer Science. This has been developed in harmony with the new Computing curriculum in the UK. This scheme of work is the result of a close collaboration between Computing & ICT teachers and researchers at the University of Cambridge. It has been successfully trialled at a number of schools.
@@ -70,8 +68,8 @@ The full source code can be viewed and obtained from the [Sonic Pi GitHub reposi
 
 Unless otherwise specified, everything in this repository is covered by the following licence:
 
-![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+[![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-***Sonic Pi Lessons*** by the [Raspberry Pi Foundation](http://raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Sonic Pi Lessons*** by the [Raspberry Pi Foundation](http://www.raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Based on a work at https://github.com/raspberrypilearning/sonic-pi-lessons

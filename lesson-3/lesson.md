@@ -52,9 +52,9 @@ Pupils are first invited to set up and connect their Raspberry Pi hardware. They
 	```
 	Invite the pupils to observe the actual number of the note played in the output window.
 
-2. Pupils are then asked to form a line as with previous lessons, except this time the line should split into two separate lines (called branches) at one point. Give out the [Conditional Statement Cards](). The pupil directly before the split should be given the special `if` card, and the rest of the pupils should be given cards as with previous exercises. The control card should start at the first pupil, and is passed down as each pupil carries out the action of their card. When it gets to the pupil with the `if` card, they should toss a coin; if it’s heads, the the control card should be passed to the first of the two separate lines, otherwise the control card should be passed to the second of the two lines. Once the control card is in one of the separate lines it continues until the end of that line, then the program is terminated. It should be pointed out that the line that didn’t get the control card passed to it was essentially ignored. The `if` statement is called a conditional and allows for decisions to be made in the program.
+1. Pupils are then asked to form a line as with previous lessons, except this time the line should split into two separate lines (called branches) at one point. Give out the [Conditional Statement Cards](). The pupil directly before the split should be given the special `if` card, and the rest of the pupils should be given cards as with previous exercises. The control card should start at the first pupil, and is passed down as each pupil carries out the action of their card. When it gets to the pupil with the `if` card, they should toss a coin; if it’s heads, the the control card should be passed to the first of the two separate lines, otherwise the control card should be passed to the second of the two lines. Once the control card is in one of the separate lines it continues until the end of that line, then the program is terminated. It should be pointed out that the line that didn’t get the control card passed to it was essentially ignored. The `if` statement is called a conditional and allows for decisions to be made in the program.
 
-3. Pupils should then be shown how to write an `if` statement in the Sonic Pi application. Ask them to copy the following code into their worksheet:
+1. Pupils should then be shown how to write an `if` statement in the Sonic Pi application. Ask them to copy the following code into their worksheet:
 
 	```ruby
 	if rand < 0.5
@@ -70,13 +70,13 @@ Pupils are first invited to set up and connect their Raspberry Pi hardware. They
 	end
 	```
 
-4. Once they have copied this code, point out the syntax of the `if` statement, specifically the words `else` and `end`. These are similar to the `do` and `end` found in the iteration block discussed in the previous lesson, in that they’re like punctuation. The `else` separates the two different branches of the `if` statement.
+1. Once they have copied this code, point out the syntax of the `if` statement, specifically the words `else` and `end`. These are similar to the `do` and `end` found in the iteration block discussed in the previous lesson, in that they’re like punctuation. The `else` separates the two different branches of the `if` statement.
 
-5. The first line should also be discussed; this is equivalent to a coin toss in that `rand(1)` returns a random value between `0` and `1`, and we’re testing to see if that random value is less than 0.5. For the advanced pupils, you may wish to point out that changing the 0.5 to different values will affect the probability of which branch is selected. For example, a value of 0.1 would mean that (on average) every 10 runs the first branch be selected only once, and the second branch will be selected 9 times.
+1. The first line should also be discussed; this is equivalent to a coin toss in that `rand(1)` returns a random value between `0` and `1`, and we’re testing to see if that random value is less than 0.5. For the advanced pupils, you may wish to point out that changing the 0.5 to different values will affect the probability of which branch is selected. For example, a value of 0.1 would mean that (on average) every 10 runs the first branch be selected only once, and the second branch will be selected 9 times.
 
-6. The pupils are then invited to press the play button a number of times so that they can hear the different branches being executed, the decision of which branch to execute being random each time.
+1. The pupils are then invited to press the play button a number of times so that they can hear the different branches being executed, the decision of which branch to execute being random each time.
 
-7. Pupils are invited to play around with the constructs of this lesson, in addition to everything they’ve learned so far, to design a simple musical program.
+1. Pupils are invited to play around with the constructs of this lesson, in addition to everything they’ve learned so far, to design a simple musical program.
 
 ## Plenary
 

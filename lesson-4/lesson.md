@@ -42,17 +42,17 @@ Pupils are first invited to set up and connect their Raspberry Pi hardware. They
 
 1. Pupils should be asked what kind of information they have been using in the previous lessons; in other words, the things they’ve been able to change. They have been able to change the time to sleep and the note to play. Ask them what kind of information this is; they’re all numbers. Explain that a number is a kind of data, and there are many others that computers may understand.
 
-2. Explain to the pupils that although numbers are one of the most useful forms of data, it’s also very handy to represent a list of numbers. Ask them if they can think of any things that could be represented by a list of numbers; for example, the finish times of runners in a race, the numbers drawn in the lottery and the notes of a bass line.
+1. Explain to the pupils that although numbers are one of the most useful forms of data, it’s also very handy to represent a list of numbers. Ask them if they can think of any things that could be represented by a list of numbers; for example, the finish times of runners in a race, the numbers drawn in the lottery and the notes of a bass line.
 
-3. Invite the pupils to enter the following code into a new worksheet and press play:
+1. Invite the pupils to enter the following code into a new worksheet and press play:
 
 	```ruby
 	play_pattern [40,25,45,25,25,50,50]
 	```
 
-4. Explain that `play_pattern` is similar to `play` except instead of taking a number representing the note to play, it takes a list of numbers to play one after the other. This list of numbers has special syntax to tell the computer that it’s a list. Firstly, it has to start with a [ and end with a ]. Secondly, each number in the list has to be separated from the other numbers with a comma.
+1. Explain that `play_pattern` is similar to `play` except instead of taking a number representing the note to play, it takes a list of numbers to play one after the other. This list of numbers has special syntax to tell the computer that it’s a list. Firstly, it has to start with a [ and end with a ]. Secondly, each number in the list has to be separated from the other numbers with a comma.
 
-5. Invite the pupils to write their own lists, choosing different numbers and different lengths of numbers, for example:
+1. Invite the pupils to write their own lists, choosing different numbers and different lengths of numbers, for example:
 
 	```ruby
   	[43, 24, 60, 57, 30]
@@ -60,18 +60,18 @@ Pupils are first invited to set up and connect their Raspberry Pi hardware. They
   	[48, 48, 48, 60]
 	```
 
-6. Once they’ve had a short play with this, invite them to form a line and hand out the number cards (in no particular order), so each pupil in the line holds just one card. Explain that they have formed a list of numbers and that there are useful things that you can do with this. One example is sorting the numbers numerically, so that the smallest numbers are first and the largest last. Introduce the word 'algorithm' as a method for solving such problems.
+1. Once they’ve had a short play with this, invite them to form a line and hand out the number cards (in no particular order), so each pupil in the line holds just one card. Explain that they have formed a list of numbers and that there are useful things that you can do with this. One example is sorting the numbers numerically, so that the smallest numbers are first and the largest last. Introduce the word 'algorithm' as a method for solving such problems.
 
-7. Next, explain that we will explore a simple sorting algorithm: bubble sort. Start at the left hand side of the line and ask the first two pupils to compare their numbers. If they are in the right order do nothing, otherwise ask the pupils to swap. Then continue to the second and third pupils, and compare and swap again if necessary. Continue down the line. If at least one pair has swapped, start at the beginning of the line and repeat. If no pairs have swapped, the list is sorted.
+1. Next, explain that we will explore a simple sorting algorithm: bubble sort. Start at the left hand side of the line and ask the first two pupils to compare their numbers. If they are in the right order do nothing, otherwise ask the pupils to swap. Then continue to the second and third pupils, and compare and swap again if necessary. Continue down the line. If at least one pair has swapped, start at the beginning of the line and repeat. If no pairs have swapped, the list is sorted.
 
-8. Explain that most programming languages provide many such algorithms to make programming easier, and to reduce the amount of work you have to do as a programmer. Ask the pupils to type the following code:
+1. Explain that most programming languages provide many such algorithms to make programming easier, and to reduce the amount of work you have to do as a programmer. Ask the pupils to type the following code:
 
 	```ruby
 	play_pattern [40,25,45,25,25,50,50].sort
 	play_pattern [40,25,45,25,25,50,50].shuffle
 	```
 
-9. Pupils are invited to play around with the constructs of this lesson, in addition to everything they’ve learned so far, to design a simple musical program.
+1. Pupils are invited to play around with the constructs of this lesson, in addition to everything they’ve learned so far, to design a simple musical program.
 
 ## Plenary
 
