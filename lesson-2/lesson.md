@@ -54,31 +54,31 @@ If any of the pupils have interesting statements that they created as part of th
 
 1. Pupils are asked to enter the following ‘bass line’ code into the Sonic Pi application:
 
-	```ruby
-	play 42
-	sleep 0.5
-	play 45
-	sleep 0.85
-	play 54
-	sleep 1
-	play 54
-	sleep 0.7
-	play 45
-	sleep 0.2
-	play 49
-	sleep 1
-	```
+    ```ruby
+    play 42
+    sleep 0.5
+    play 45
+    sleep 0.85
+    play 54
+    sleep 1
+    play 54
+    sleep 0.7
+    play 45
+    sleep 0.2
+    play 49
+    sleep 1
+    ```
 
 1. They are then asked to repeat this line 5 times. They do this by writing:
 
-	```ruby
-	5.times do
-  	  play 42
-  	  sleep 0.5
+    ```ruby
+    5.times do
+      play 42
+      sleep 0.5
       ... rest of code ...
-	  sleep 1
-	end
-	```
+      sleep 1
+    end
+    ```
 
 1. The pupils are then invited to play around with this, modifying it as they feel fit, for the remainder of the time. For the adventurous pupils, you can suggest that they nest the iterations; in other words, have one iteration inside another.
 
