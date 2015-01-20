@@ -44,31 +44,32 @@ Pupils are first invited to set up and connect their Raspberry Pi hardware. They
 
 1. Pupils should be should be shown how to add some randomisation to their code. This can be achieved by using the statement `rand(10)`, which returns a random value between `0` and `10` (from 0 up to but not including the number you specify). You can specify other numbers for larger ranges; for instance, `rand(20)` will return values from `0` to `20`. Let’s use this in our program by adding our random number to a note with the `+` operator:
 
-	```ruby
-	3.times do
-	  play 60 + rand(10)
-	  sleep 0.5
-	end
-	```
+    ```ruby
+    3.times do
+      play 60 + rand(10)
+      sleep 0.5
+    end
+    ```
+
 	Invite the pupils to observe the actual number of the note played in the output window.
 
 1. Pupils are then asked to form a line as with previous lessons, except this time the line should split into two separate lines (called branches) at one point. Give out the [Conditional Statement Cards](). The pupil directly before the split should be given the special `if` card, and the rest of the pupils should be given cards as with previous exercises. The control card should start at the first pupil, and is passed down as each pupil carries out the action of their card. When it gets to the pupil with the `if` card, they should toss a coin; if it’s heads, the the control card should be passed to the first of the two separate lines, otherwise the control card should be passed to the second of the two lines. Once the control card is in one of the separate lines it continues until the end of that line, then the program is terminated. It should be pointed out that the line that didn’t get the control card passed to it was essentially ignored. The `if` statement is called a conditional and allows for decisions to be made in the program.
 
 1. Pupils should then be shown how to write an `if` statement in the Sonic Pi application. Ask them to copy the following code into their worksheet:
 
-	```ruby
-	if rand < 0.5
+    ```ruby
+    if rand < 0.5
       play 60
-	  sleep 0.5
-	  play 62
-	else
+      sleep 0.5
+      play 62
+    else
       play 72
       sleep 0.25
       play 71
       sleep 0.25
       play 70
-	end
-	```
+    end
+    ```
 
 1. Once they have copied this code, point out the syntax of the `if` statement, specifically the words `else` and `end`. These are similar to the `do` and `end` found in the iteration block discussed in the previous lesson, in that they’re like punctuation. The `else` separates the two different branches of the `if` statement.
 

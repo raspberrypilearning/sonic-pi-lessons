@@ -47,7 +47,7 @@ Pupils are first invited to set up and connect their Raspberry Pi hardware. They
 1. Invite the pupils to enter the following code into a new worksheet and press play:
 
 	```ruby
-	play_pattern [40,25,45,25,25,50,50]
+	play_pattern [40, 25, 45, 25, 25, 50, 50]
 	```
 
 1. Explain that `play_pattern` is similar to `play` except instead of taking a number representing the note to play, it takes a list of numbers to play one after the other. This list of numbers has special syntax to tell the computer that it’s a list. Firstly, it has to start with a [ and end with a ]. Secondly, each number in the list has to be separated from the other numbers with a comma.
@@ -67,8 +67,8 @@ Pupils are first invited to set up and connect their Raspberry Pi hardware. They
 1. Explain that most programming languages provide many such algorithms to make programming easier, and to reduce the amount of work you have to do as a programmer. Ask the pupils to type the following code:
 
 	```ruby
-	play_pattern [40,25,45,25,25,50,50].sort
-	play_pattern [40,25,45,25,25,50,50].shuffle
+	play_pattern [40, 25, 45, 25, 25, 50, 50].sort
+	play_pattern [40, 25, 45, 25, 25, 50, 50].shuffle
 	```
 
 1. Pupils are invited to play around with the constructs of this lesson, in addition to everything they’ve learned so far, to design a simple musical program.

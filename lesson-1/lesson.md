@@ -67,7 +67,6 @@ in_thread do
   end
 end
 
-
 in_thread do
   use_synth :beep
   20.times do
