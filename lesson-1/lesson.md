@@ -41,39 +41,38 @@ Have a demonstration Raspberry Pi already connected and the Sonic Pi software ru
 Start the demo code below, play it for a moment or two and explain that in a few weeks the students will be able to make computers do this for themselves. Emphasise that they'll be free to do what they want with it and have a lot of fun in the process; programming is about getting the computer to do exactly what you want it to do. It's not important for the students to see the application or any code at this stage, just for them to hear the sounds coming from the computer.
 
 ```ruby
-use_bpm 350
+use_debug false
 
-2.times do
-  play_pattern [40,25,45,25,25,50,50]
-  play_pattern [25,50,25,30,35,40,45,50]
-  play_pattern [25,50,25,30,35,40,45,50].reverse
+loop :low do |idx|
+  #  idx = 0
+  synth :zawa, wave: 1, invert_wave: 1, phase: 0.25, release: 5, note: :e1, cutoff: (range 60, 120, 10)[idx]
+  sleep 4
+  idx += 1
 end
 
-2.times do
+live_loop :lands, auto_cue: false do |idx|
   use_synth :dsaw
-  play_pattern [25,50,25,30,35,40,45,50].shuffle
-  play_pattern [25,50,25,30,35,40,45,50].reverse
-end
-
-in_thread do
-  use_synth :dull_bell
-  10.times do
-    if rand < 0.5
-      play 37
-    else
-      play 49
+  use_random_seed 66679
+  with_fx :reverb, room: 1  do
+    16.times do
+      ns = (scale :e2, :minor_pentatonic, num_octaves: 3)
+      play ns.choose, detune: 12, release: 0.1, amp: 2, amp: rand + 0.5, cutoff: rrand(70, 120)
+      sleep 0.125
     end
-  sleep 2
   end
 end
 
-in_thread do
-  use_synth :beep
-  20.times do
-    play 49
-    sleep 1
-  end
+live_loop :bikes do |idx|
+  sleep 0.25
+  sample :guit_em9, rate: -1
+  sleep 7.75
 end
+
+live_loop :time, auto_cue: false do |idx|
+  sample :bd_haus, amp: 2.5
+  sleep 0.5
+end
+
 ```
 
 ## Main Development
