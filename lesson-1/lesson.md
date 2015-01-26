@@ -43,7 +43,7 @@ Start the demo code below, play it for a moment or two and explain that in a few
 ```ruby
 use_debug false
 
-loop :low do |idx|
+live_loop :low do |idx|
   #  idx = 0
   synth :zawa, wave: 1, invert_wave: 1, phase: 0.25, release: 5, note: :e1, cutoff: (range 60, 120, 10)[idx]
   sleep 4
