@@ -40,6 +40,8 @@ Have a demonstration Raspberry Pi already connected and the Sonic Pi software ru
 
 Start the demo code below, play it for a moment or two and explain that in a few weeks the students will be able to make computers do this for themselves. Emphasise that they'll be free to do what they want with it and have a lot of fun in the process; programming is about getting the computer to do exactly what you want it to do. It's not important for the students to see the application or any code at this stage, just for them to hear the sounds coming from the computer.
 
+Note, this is one of the examples available in the help system in v2.3. If you're using an older version, feel free to pick one of the other examples.
+
 ```ruby
 use_debug false
 
