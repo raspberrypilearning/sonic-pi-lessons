@@ -1,10 +1,10 @@
 # Lesson 2 - Debugging & Iteration
 
-In this lesson we will be given an opportunity to experience the art of programming; from debugging to careful syntax placement, to the joy of a working program. Also, in order to to construct some meaningful and interesting musical structures, we need to learn some meaningful and interesting programming structures. Today we are going to learn how to create a bass line.
+In this lesson we will be given an opportunity to experience the art of programming; from debugging to careful syntax placement, to the joy of a working program. Also, in order to construct some meaningful and interesting musical structures, we need to learn some meaningful and interesting programming structures. Today we are going to learn how to create a bass line.
 
 ## Learning Objectives
 
-- Understand that computers don’t know what to do do with an error.
+- Understand that computers don’t know what to do with an error.
 - Write a simple program using text and identify any errors.
 - Iterate/repeat some code a number of times to create a 'bass line'.
 
@@ -46,7 +46,7 @@ If any of the pupils have interesting statements that they created as part of th
 
 1. The pupils are then separated into pairs and are given their own set of Sonic Pi equipment. Pupils follow the instructions to connect the various parts of the Raspberry Pi together and once it has booted, they start the Sonic Pi program by clicking on the menu item under **start -> programming -> sonic-pi**.
 
-1. Next, the pupils are then given their first introduction to **debugging**. They are asked to type in the following one-line program which is incorrect: `pllay 42`. They are then asked to observe what happens when they run the program. At this point it’s important to emphasise that this is a typical situation for real programmers. It means that they have done something that the computer doesn’t understand; because the computer is not very clever, this is very easy to do. The students are invited to correct (debug) the program by removing the extra `l`. They are then asked to observe the output of the program.
+1. Next, the pupils are given their first introduction to **debugging**. They are asked to type in the following one-line program which is incorrect: `pllay 42`. They are then asked to observe what happens when they run the program. At this point it’s important to emphasise that this is a typical situation for real programmers. It means that they have done something that the computer doesn’t understand; because the computer is not very clever, this is very easy to do. The students are invited to correct (debug) the program by removing the extra `l`. They are then asked to observe the output of the program.
 
 1. A selection of pupils are asked to form a line with the computational cards, and to act out the program as carried out in the previous lesson. The class is then asked how we can repeat this program twice. One of the answers might be to duplicate the line, forming a line twice as long as the original with the original sequence of statements duplicated twice. Now, ask the class to act out this new longer program. Once this has been completed ask how we might repeat the original program 10 times, or 100 times. What about 1000 times? Clearly, we’d run out of people!
 
