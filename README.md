@@ -10,8 +10,8 @@ This scheme of work is specifically targetted towards introductory KS3 Computer 
 
 Over the course of six lessons, students will learn:
 
-- What a Raspberry Pi is, what its main features are, and how to setup and use one
-- How to write text based code to produce a music track
+- What a Raspberry Pi is, what its main features are, and how to set up and use one
+- How to write text-based code to produce a music track
 - Computer Science concepts:
 	- Sequencing
 	- Debugging
