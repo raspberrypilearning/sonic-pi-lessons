@@ -4,9 +4,9 @@ Although the world is constructed from many tiny pieces, this isn’t how we see
 
 ## Learning Objectives
 
-- Know that computer programs can make decisions, and that a simple form of decision is called a conditional.
-- Understand that computer programs can contain random acts.
-- Be able to use comments to explain interesting parts of a program.
+- Know that numbers can be aggregated into data structures such as lists.
+- Understand that algorithms are a series of steps or instructions for solving a problem such as sorting and shuffling a list of numbers.
+- Be able to use data structures and built in algorthms as part of Sonic Pi compoisition, using comments to explain what is happening.
 
 ## Learning Outcomes
 
