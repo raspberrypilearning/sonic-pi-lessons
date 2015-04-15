@@ -1,3 +1,5 @@
+### Meets
+
 - Use 2 or more programming languages, at least one of which is textual, to solve a variety of computational problems; make appropriate use of data structures [for example, lists, tables or arrays]; design and develop modular programs that use procedures or functions.
 
 ### Partially meets
