@@ -5,7 +5,7 @@ If we want to make some meaningful and interesting musical structures, we need t
 ## Learning Objectives
 
 - Know that computers can multitask (do many things at once).
-- Understand that a simple program has one flow of control; in other words, it has one thread of execution but programs can have multiple such threads.
+- Understand that a simple program has one flow of control; in other words, it has one thread of execution. Programs can, however, have multiple such threads.
 - Be able to program multiple threads that work at the same time (concurrently).
 
 ## Learning Outcomes
