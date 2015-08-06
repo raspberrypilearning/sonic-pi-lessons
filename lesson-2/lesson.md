@@ -42,7 +42,7 @@ If any of the pupils have interesting statements that they created as part of th
 
 ## Main Development
 
-1. With just one group acting and with the rest of the class watching, introduce the [two error cards](files/Lesson-2-Debug-Cards.pdf) into the deck of computer program cards; shuffle them up and repeat the exercise described in the previous lesson. Observe what the pupil with the foreign language error card does, and then have a short discussion with the class about what perhaps should happen. Then point out that there’s another error card, but with a subtle error in the spelling. Explain that to the computer they are both as unintelligible as each other. The computer isn’t clever enough to read through the subtle error.
+1. With just one group acting and with the rest of the class watching, introduce [the two error cards](files/Lesson-2-Debug-Cards.pdf) into the deck of computer program cards; shuffle them up and repeat the exercise described in the previous lesson. Observe what the pupil with the foreign language error card does, and then have a short discussion with the class about what perhaps should happen. Then point out that there’s another error card, but with a subtle error in the spelling. Explain that to the computer they are both as unintelligible as each other. The computer isn’t clever enough to read through the subtle error.
 
 1. The pupils are then separated into pairs and are given their own set of Sonic Pi equipment. Pupils follow the instructions to connect the various parts of the Raspberry Pi together and once it has booted, they start the Sonic Pi program by clicking on the menu item under **start -> programming -> sonic-pi**.
 
