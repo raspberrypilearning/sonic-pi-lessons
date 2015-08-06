@@ -1,12 +1,12 @@
-# Lesson 4 - Data Structures & Algorithms
+# Lesson 4 - Data Structures and Algorithms
 
-Although the world is constructed from many tiny pieces, this isn’t how we see it. Instead, we perceive useful structures and aggregations of these pieces. Rather than individual atoms or molecules, we see trees, people, bicycles and so on. In our previous lessons the information we have dealt with has been simple numbers: numbers for notes, numbers for time, even numbers for chance. Data structures allow us to compose and aggregate these simple data into useful structural forms. One of the simplest of these aggregate structures is the list which we will discuss in this lesson. Once we have structures like the list, we can start using a useful library of mini-programs which can perform operations such as sorting and shuffling the list.
+Although the world is constructed from many tiny pieces, this isn’t how we perceive it. Instead, we see useful structures and aggregations of these pieces. Rather than individual atoms or molecules, we see trees, people, bicycles, and so on. In our previous lessons, the information we have dealt with has been simple numbers: numbers for notes, numbers for time, even numbers for chance. Data structures allow us to compose and aggregate these simple data into useful structural forms. One of the simplest of these aggregate structures is the list which we will discuss in this lesson. Once we have structures like the list, we can start using a useful library of mini-programs which can perform operations such as sorting and shuffling the list.
 
 ## Learning Objectives
 
 - Know that numbers can be aggregated into data structures such as lists.
 - Understand that algorithms are a series of steps or instructions for solving a problem such as sorting and shuffling a list of numbers.
-- Be able to use data structures and built in algorthms as part of Sonic Pi compoisition, using comments to explain what is happening.
+- Be able to use data structures and built-in algorithms as part of Sonic Pi composition, using comments to explain what is happening.
 
 ## Learning Outcomes
 
