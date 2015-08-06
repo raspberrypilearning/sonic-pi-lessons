@@ -1,4 +1,4 @@
-# Lesson 3 - Conditionals & Randomisation
+# Lesson 3 - Conditionals and Randomisation
 
 If we want to make some meaningful and interesting musical structures, we need to learn some meaningful and interesting programming structures.
 
