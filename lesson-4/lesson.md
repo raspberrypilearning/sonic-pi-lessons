@@ -40,7 +40,7 @@ Pupils are first invited to set up and connect their Raspberry Pi hardware. They
 
 ## Main Development
 
-1. Pupils should be asked what kind of information they have been using in the previous lessons; in other words, the things they’ve been able to change. They have been able to change the time to sleep and the note to play. Ask them what kind of information this is; they’re all numbers. Explain that a number is a kind of data, and there are many others that computers may understand.
+1. Pupils should be asked what kind of information they have been using in the previous lessons; in other words, the things they’ve been able to change. They have been able to change the time to sleep and the note to play. Ask them what kind of information this is, the answer being that they are all numbers. Explain that a number is a kind of data, and there are many others that computers may understand.
 
 1. Explain to the pupils that although numbers are one of the most useful forms of data, it’s also very handy to represent a list of numbers. Ask them if they can think of any things that could be represented by a list of numbers; for example, the finish times of runners in a race, the numbers drawn in the lottery and the notes of a bass line.
 
@@ -50,7 +50,7 @@ Pupils are first invited to set up and connect their Raspberry Pi hardware. They
 	play_pattern [40, 25, 45, 25, 25, 50, 50]
 	```
 
-1. Explain that `play_pattern` is similar to `play` except instead of taking a number representing the note to play, it takes a list of numbers to play one after the other. This list of numbers has special syntax to tell the computer that it’s a list. Firstly, it has to start with a [ and end with a ]. Secondly, each number in the list has to be separated from the other numbers with a comma.
+1. Explain that `play_pattern` is similar to `play` except instead of taking a number representing the note to play, it takes a list of numbers to play one after the other. This list of numbers has special syntax to tell the computer that it’s a list. Firstly, it has to start with a `[` and end with a `]`. Secondly, each number in the list has to be separated from the other numbers with a comma.
 
 1. Invite the pupils to write their own lists, choosing different numbers and different lengths of numbers, for example:
 
