@@ -1,6 +1,6 @@
 # Lesson 1: Getting started with Sonic Pi on a Raspberry Pi
 
-The Raspberry Pi is a tiny computer, less than the size of a pack of cards, which can transform the way we perceive and approach computation. In this lesson, we will introduce the basic components of the Raspberry Pi and how they relate to a traditional computer. We will discuss the generic nature of computation and how the same computer can be programmed to simultaneously do many different things, from word processing to music synthesis. Finally, we will introduce the most basic principle of programming: a program as a sequence of instructions.
+The Raspberry Pi is a tiny computer, smaller than a pack of cards, which can transform the way we perceive and approach computation. In this lesson, we will introduce the basic components of the Raspberry Pi and how they relate to a traditional computer. We will discuss the generic nature of computation and how the same computer can be programmed to do many different things simultaneously, from word processing to music synthesis. Finally, we will introduce the most basic principle of programming: a program as a sequence of instructions.
 
 ## Learning Objectives
 
@@ -12,7 +12,7 @@ The Raspberry Pi is a tiny computer, less than the size of a pack of cards, whic
 
 ### All students are able to:
 
-- Know how to plug the components of a Raspberry Pi together.
+- Know how to connect the components of a Raspberry Pi together.
 - Act out some basic statements, and understand that a sequence of statements is a program.
 - Write a simple program.
 
@@ -40,7 +40,7 @@ Have a demonstration Raspberry Pi already connected and the Sonic Pi software ru
 
 Start the demo code below, play it for a moment or two and explain that in a few weeks the students will be able to make computers do this for themselves. Emphasise that they'll be free to do what they want with it and have a lot of fun in the process; programming is about getting the computer to do exactly what you want it to do. It's not important for the students to see the application or any code at this stage, just for them to hear the sounds coming from the computer.
 
-Note, this is one of the examples available in the help system in v2.3. If you're using an older version, feel free to pick one of the other examples.
+Note: this is one of the examples available in the help system in v2.3. If you're using an older version, feel free to pick one of the other examples.
 
 ```ruby
 use_debug false
@@ -79,7 +79,7 @@ end
 
 ## Main Development
 
-1. Start with all the parts of the Raspberry Pi on a table: keyboard, mouse, speaker, memory card, power supply, monitor, monitor cable and the Raspberry Pi itself. Ask the class to name and describe each component as you connect it to the Raspberry Pi in front of the class. Finally, plug in the power and watch it boot up. An alternative demonstration would be to leave out the memory card and attempt to boot the Pi, which will fail. You can then describe the memory card as something that contains instructions to tell the Raspberry Pi how to start. The Raspberry Pis should all be booted and sitting on the login prompt waiting for authentication.
+1. Start with all the parts of the Raspberry Pi on a table: keyboard, mouse, speaker, memory card, power supply, monitor, monitor cable, and the Raspberry Pi itself. Ask the class to name and describe each component as you connect it to the Raspberry Pi in front of the class. Finally, plug in the power and watch it boot up. An alternative demonstration would be to leave out the memory card and attempt to boot the Pi, which will fail. You can then describe the memory card as something that contains instructions to tell the Raspberry Pi how to start. The Raspberry Pis should all be booted and sitting on the login prompt waiting for authentication.
 
 1. Split the class into groups again and give each group a deck of the [computer program cards](files/Lesson-1-computer-program-cards.pdf). Ask each group to take out the statement cards and the control card from the deck. Then ask each group to form a line and to give each member of the group a statement card after shuffling them. The person at the start of the line should be given the control card. Explain that the person holding the control card should carry out the instructions on the statement card, and then pass the control card to the next person in the line like a relay baton. When the control card has reached the end of the line, they should stop. This should be repeated for a number of random orderings, after which the groups could be invited to create their own orderings. A helpful analogy might be cooking, where collections of statements are recipes and the control flow is which stage of the recipe you're at.
 
