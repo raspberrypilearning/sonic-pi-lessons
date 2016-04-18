@@ -58,7 +58,7 @@ Pupils are first invited to set up and connect their Raspberry Pi hardware. They
 1. Pupils should then be shown how to write an `if` statement in the Sonic Pi application. Ask them to copy the following code into their worksheet:
 
     ```ruby
-    if rand < 0.5
+    if Random.rand < 0.5
       play 60
       sleep 0.5
       play 62
@@ -85,7 +85,7 @@ Finally, teach the class that the hash symbol `#` is used to make a comment. Inv
 
 ```ruby
 # Toss a virtual coin
-if rand(1) < 0.5
+if Random.rand < 0.5
 # if heads, play two ascending notes
   play 60
   sleep 0.5
